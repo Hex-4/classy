@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "classy"
+version = "0.1.0"
+description = "👔 classify stuff from the terminal"
+authors = ["hex4 <hex4@hackclub.app>"]
+# readme = "README.md"
+# license = "Unlicense"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+gumpython = "^0.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
